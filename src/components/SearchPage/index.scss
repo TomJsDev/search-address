@@ -1,0 +1,25 @@
+.searchComponent {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	column-gap: 0.5rem;
+	width: 100%;
+	max-width: 21.5rem;
+}
+
+.searchContainer {
+	display: flex;
+	flex-direction: column;
+	row-gap: 1.5rem;
+}
+
+.searchInput {
+	padding: 0.375rem 0.5rem !important;
+}
+
+.searchPage {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	row-gap: 1.5rem;
+}
